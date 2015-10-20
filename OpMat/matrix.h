@@ -18,14 +18,7 @@ class Matrix {
         Matrix<T> operator+ (const Matrix &matrix_2);
         Matrix<T> operator- (const Matrix &matrix_2);
         Matrix<T> operator* (const Matrix &matrix_2);
- 
-        bool isSymmetric();
-        bool isIdentity();
- 
-        T get_max();
-        T get_min();
-        T get_mode();
- 
+
         void delete_matrix();
         void fill_by_user();
         void fill_random();
