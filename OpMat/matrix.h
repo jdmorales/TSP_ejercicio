@@ -25,8 +25,6 @@ class Matrix {
         void get_transpose();
         void multiply_by_scalar(T);
         void print_matrix();
-        void swap_cols(int, int);
-        void swap_rows(int, int);
  
     private:
         T m_ele;
