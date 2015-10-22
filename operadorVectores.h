@@ -20,7 +20,7 @@ class opVectores{
 };
 
 opVectores:: opVectores(){
-	llenarVectores();
+	
 }
 
 void opVectores::llenarVectores()
@@ -46,6 +46,7 @@ void opVectores::llenarVectores()
 
 void opVectores::suma()
 {
+	llenarVectores();
 	for (int i=0; i<n_max; i++){
 		vector_result[i]=vector_a[i]+vector_b[i];
 		cout<<"Vector suma A+B= "<<vector_result[i]<<endl;
@@ -54,6 +55,7 @@ void opVectores::suma()
 
 void opVectores::resta()
 {
+	llenarVectores();
 	for (int i=0; i<n_max; i++){
 		vector_result[i]=vector_a[i]-vector_b[i];
 		cout<<"Vector resta A-B= "<<vector_result[i]<<endl;
@@ -62,6 +64,7 @@ void opVectores::resta()
 
 void opVectores::multiplicacion()
 {
+	llenarVectores();
 	for (int i=0; i<n_max; i++){
 		vector_result[i]=vector_a[i]*vector_b[i];
 		cout<<"Vector multiplicacion A.*B= "<<vector_result[i]<<endl;

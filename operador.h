@@ -57,5 +57,5 @@ void Operador::insertar()
 
 void Operador::imprimir()
 {
-    std::cout<<"\nEl resultado es: "<<resultado;
+    std::cout<<"\nEl resultado es: "<<resultado<<std::endl;
 }
